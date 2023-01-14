@@ -24,21 +24,3 @@ settings():
     user.code_protected_variable_formatter = "PRIVATE_CAMEL_CASE"
     user.code_public_variable_formatter = "PRIVATE_CAMEL_CASE"
 
-state var: "var "
-
-# Types Commands
-boxed [type] {user.java_boxed_type}: insert(user.java_boxed_type + " ")
-
-generic [type] {user.java_generic_data_structure}:
-    user.insert_between(java_generic_data_structure + "<", ">")
-
-# Arrays
-type {user.code_type} array:
-    insert(user.code_type)
-    user.code_operator_subscript()
-
-[state] {user.java_modifier}: insert(user.java_modifier + " ")
-
-op array: user.code_operator_subscript()
-
-op new: insert("new ")
