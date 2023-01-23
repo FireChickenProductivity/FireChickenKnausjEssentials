@@ -36,3 +36,10 @@ core/mouse_grid/mouse_grid_open.talon
 
 core/mouse_grid/mouse_grid.talon
 
+plugin/microphone_selection/microphone_selection.talon
+
+plugin/mouse/mouse.talon
+
+plugin/repeater/repeater.talon
+
+plugin/talon_helpers/talon_helpers.talon
