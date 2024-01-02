@@ -26,7 +26,15 @@ core/modes/dragon_mode.talon
 
 core/modes/modes.talon
 
+core/modes/sleep_mode_not_dragon.talon
+
 core/modes/sleep_mode_wav2letter.talon
+
+core/modes/to_sleep_mode_not_dragon.talon
+
+core/modes/to_sleep_mode.talon
+
+core/modes/wake_and_sleep_wav2letter.talon
 
 core/modes/wake_and_sleep.talon
 
@@ -35,6 +43,10 @@ core/mouse_grid/mouse_grid_always.talon
 core/mouse_grid/mouse_grid_open.talon
 
 core/mouse_grid/mouse_grid.talon
+
+core/numbers/numbers.talon
+
+
 
 plugin/microphone_selection/microphone_selection.talon
 
